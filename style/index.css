@@ -1,0 +1,230 @@
+*{letter-spacing: 1px;margin: 0;padding: 0;font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;}li,a{list-style: none;text-decoration: none;color: #fff;margin: 5px 0;}
+div.rnd{position: fixed;top: 50%;left: 45%;transform: translate(-50%,-50%);height: 100px;width: 100px;border-top: 8px solid #08f;border-right: 8px solid #08f;border-bottom: 8px solid #08f;border-left: 8px solid transparent;border-radius: 50%;z-index: 1;animation: b_rnd 500ms linear infinite;}
+@keyframes b_rnd {0%{transform: rotate(0deg);}50%{transform: rotate(180deg);}100%{transform: rotate(360deg);}}
+.rnd_body{display: none;}
+i.fa-window-close,
+i.fa-minus-square{display: none;font-size: 40px;color: #fff;}
+div.hd_lst{display: none;}
+div.hd_lst{position: fixed;top: 0;left: 100vw;height: 100vh;width: 100vw;background: #303030;flex-direction: column;justify-content: center;z-index: 10;transition: all 250ms ease;}
+div.hd_lst div:nth-child(2){height: 50vh;display: flex;flex-direction: column;align-items: center;justify-content: space-around;}
+div.hd_lst div:nth-child(2) li{margin: 30px 0;font-size: 22px;color: #f00}
+div.hd_lst div:last-child{display: flex;flex-direction: row;align-items: center;justify-content: space-around;}
+::selection{background: #f50000;color: #fff;}
+/*header*/
+header{position: relative;width: 100%;background: #303030;display: flex;align-items: center;align-content: center;justify-content: center;}
+header div.en_1{position: relative;width: 95%;padding: 15px 0;font-weight: 500;display: flex;flex-direction: row;align-items: flex-start;justify-content: center;}
+header div.en_1 div.f_st{position: relative;width: 50%;color: #fff;display: flex;flex-direction: column;align-items: flex-start;}
+header div.en_1 div.f_st a{display: flex;flex-direction: row;}
+header div.en_1 div.l_st{position: relative;width: 50%;display: flex;flex-direction: column;align-items: flex-end;}
+header div.en_1 div.l_st div ul{margin: 0 0 10px 0;display: flex;flex-direction: row;}
+i.fab{margin-left: 15px;cursor: pointer;font-size: 35px;color: #fff;}i.fa-facebook:hover{color: #09f;}i.fa-twitter:hover{color: #0cf;}i.fa-whatsapp:hover{color: #0d0;}i.fa-instagram:hover{color: #f0f;}
+header div.en_1 div.l_st div ul li{margin-left: 25px;padding-left: 5px;border-bottom: 2px solid transparent;}
+header div.en_1 div.l_st div ul li:nth-child(1){margin-left: 25px;padding-left: 5px;border-left: 2px solid #bdbdbd;border-bottom: 2px solid #bdbdbd;}
+header div.en_1 div.l_st div ul li:hover{border-bottom: 2px solid #bdbdbd;}
+header div.en_1 div.l_st div ul li:hover a{color: #dedede;}
+header div.en_1 div.l_st div ul li a{font-size: 18px;font-weight: 500;}
+/*section_1*/
+section{position: relative;padding: 10vh 0;width: 100%;display: flex;align-items: center;align-content: center;justify-content: center;}
+section.s_1{position: relative;padding: 0px 0;width: 100%;display: flex;align-items: center;align-content: center;justify-content: center;}
+section div.sc_fst{position: relative;width: 100%;height: 75vh;background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../img/flowers_plants_branches_pink_87338_1366x768.jpg');display: flex;align-items: center;align-content: center;justify-content: center;}
+section div.sc_fst div{position: relative;width: 95%;color: #fff;display: flex;flex-direction: column;align-items: flex-start;justify-content: space-between;}
+section div.sc_fst div h1{font-size: 62px;}
+section div.sc_fst div p{font-size: 26px;margin: 40px 0;width: 50%;}
+section div.sc_fst div a{font-weight: 500;font-size: 20px;padding: 8px;border-radius: 3px;background: #f60;box-shadow: 0 2px 2px rgba(0,0,0,0.4);}
+section div.sc_fst div a:hover{background: #303030;}
+/*center*/
+center.c_nt div{
+  position: relative;
+  width: 120px;
+  background: #505050;
+  margin: 25px 0 60px 0;
+  padding: 2px 0;
+}
+/*section_2*/
+section div.sc_2{
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+section div.sc_2 div.sc_2_dv{
+  position: relative;
+  width: 90%;
+  padding: 0px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+section div.sc_2 div.sc_2_dv div{
+  position: relative;
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+section div.sc_2 div.sc_2_dv div h2{
+  font-size: 32px;
+  color: #303030;
+}
+section div.sc_2 div.sc_2_dv div img{
+  width: 100%;
+  margin: 35px 0;
+  border-radius: 3px;
+}
+section div.sc_2 div.sc_2_dv div p{
+  font-size: 22px;
+  color: #404040;
+  line-height: 30px;
+}
+section div.sc_2 div.sc_2_dv div p span{
+  font-size: 24px;
+  font-weight: 600;
+  color: #303030;
+}
+/*section_3*/
+section div.sc_3{
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+center div.sc_3_1{
+  position: relative;
+  width: 120px;
+  margin: 10vh 0;
+  padding: 2px 0;
+  background: #505050;
+}
+section div.sc_3 div.sc_3_2{
+  position: relative;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+section div.sc_3 div.sc_3_2 div{
+  width: 28%;
+  height: 100%;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+section div.sc_3 div.sc_3_2 div h2{
+  font-size: 32px;
+  margin-bottom: 35px;
+  color: #303030;
+}
+span.m_lp h2{
+  padding-left: 15px;
+  font-weight: 500;
+  border-left: 4px solid #c40;
+}
+p.s_lp{
+  font-size: 22px;
+  line-height: 30px;
+}
+span.s_fp{
+  position: relative;
+  font-size: 120px;
+  font-weight: 400;
+}
+section div.sc_3 div.sc_3_2 div p{
+  font-size: 22px;
+  color: #404040;
+}
+span.an_u{
+  position: absolute;
+  padding-top: 30px;
+  font-size: 22px;
+  line-height: 30px;
+}
+h2#an_d_P{
+  margin-bottom: 5px;
+}
+section div.sc_3 div.sc_3_2 div ul{
+  padding-left: 25px;
+  width: 90%;
+}
+section div.sc_3 div.sc_3_2 div ul li{
+  list-style-type: disc;
+  font-size: 22px;
+  color: #404040;
+  line-height: 30px;
+}
+/*section_4*/
+section.ls_e_a{
+  padding: 30px 0 0 0;
+}
+section div.sc_4{
+  position: relative;
+  width: 100%;
+  padding: 60px 0;
+  background: #dedede;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+div.sc_4_1{
+  position: relative;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+div.sc_4_1 div{
+  position: relative;
+  width: 28%;
+  align-self: flex-start;
+}
+div.sc_4_1 div h2{
+  margin-bottom: 35px;
+  font-size: 32px;
+  color: #404040;
+}
+div.sc_4_1 div p{
+  font-size: 22px;
+  color: #505050;
+  line-height: 30px;
+}
+div.sc_4_1 div a{
+  font-size: 20px;
+  color: #606060;
+  text-decoration: underline;
+}
+div.sc_4_1 div a:hover{
+  color: #05f;
+}
+/*media*/
+@media screen and (max-width:850px) {
+  div.sc_4_1 div{width: 100%;margin-bottom: 30px;}
+  section div.sc_3 div.sc_3_2 div{width: 100%;margin-bottom: 35px;}
+  section div.sc_2 div.sc_2_dv{justify-content: center;width: 95%;}
+  section div.sc_2 div.sc_2_dv div{width: 100%;margin-bottom: 25px;}
+  header div.en_1{justify-content: flex-start;}
+  header div.en_1 div.l_st{display: none;}
+  section div.sc_fst{height: 100vh;}
+  /**/
+  header div.en_1{align-items: center;justify-content: space-between;}
+  i.fa-window-close,
+  i.fa-minus-square{display: block;}
+  div.hd_lst{display: block;}
+  div.hd_lst li:nth-child(1){border-left: 2px solid #fff;padding-left: 5px;}
+  section div.sc_fst div p{width: 80%;}
+}

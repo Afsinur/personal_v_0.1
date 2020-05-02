@@ -1,0 +1,8 @@
+/**/
+section div.sc_1{background-position: center;background-size: 100vh;background-size: cover;}
+/*footer*/
+footer{position: relative;font-size: 20px;font-weight: 500;color: #fff;background: #303030;width: 100%;display: flex;flex-direction: row;align-items: center;align-content: center;justify-content: center;padding: 5px 0;}
+footer div{display: flex;flex-direction: row;justify-content: space-between;width: 90%;}
+@media screen and (max-width:850px) {
+  div.rnd{left: 35%;}
+}

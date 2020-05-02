@@ -1,0 +1,29 @@
+[
+  {
+    "picture":"../img/roundafsinpng01_jpg123.jpg",
+    "name":"Afsinur",
+    "from":"From - Gazipur, Bangladesh.",
+    "info":[
+      {
+        "hpl":"https://www.facebook.com/afsinur.rahman.54",
+        "png":"fab fa-facebook",
+        "id":"Afsinur Rahman"
+      },
+      {
+        "hpl":"https://twitter.com/Afsinur1",
+        "png":"fab fa-twitter",
+        "id":"Afsinur1"
+      },
+      {
+        "hpl":"#",
+        "png":"fab fa-whatsapp",
+        "id":"+8801794642816"
+      },
+      {
+        "hpl":"https://www.instagram.com/afsinur2816/",
+        "png":"fab fa-instagram",
+        "id":"afsinur2816"
+      }
+    ]
+  }
+]

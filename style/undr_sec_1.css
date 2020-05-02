@@ -1,0 +1,28 @@
+*{letter-spacing: 1px;margin: 0;padding: 0;font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;}li,a{list-style: none;text-decoration: none;color: #fff;margin: 5px 0;}
+div.rnd{position: fixed;top: 50%;left: 45%;transform: translate(-50%,-50%);height: 100px;width: 100px;border-top: 8px solid #08f;border-right: 8px solid #08f;border-bottom: 8px solid #08f;border-left: 8px solid transparent;border-radius: 50%;z-index: 1;animation: b_rnd 500ms linear infinite;}
+@keyframes b_rnd {0%{transform: rotate(0deg);}50%{transform: rotate(180deg);}100%{transform: rotate(360deg);}}
+.rnd_body{display: none;}
+i.fa-window-close,
+i.fa-minus-square{display: none;font-size: 40px;color: #fff;}
+div.hd_lst{display: none;}
+div.hd_lst{position: fixed;top: 0;left: 100vw;height: 100vh;width: 100vw;background: #303030;flex-direction: column;justify-content: center;z-index: 10;transition: all 250ms ease;}
+div.hd_lst div:nth-child(2){height: 50vh;display: flex;flex-direction: column;align-items: center;justify-content: space-around;}
+div.hd_lst div:nth-child(2) li{margin: 30px 0;font-size: 22px;}
+div.hd_lst div:last-child{display: flex;flex-direction: row;align-items: center;justify-content: space-around;}
+::selection{background: #f50000;color: #fff;}
+/*header*/
+header{position: relative;width: 100%;background: #303030;display: flex;align-items: center;align-content: center;justify-content: center;}
+header div.en_1{position: relative;width: 95%;padding: 15px 0;font-weight: 500;display: flex;flex-direction: row;align-items: flex-start;justify-content: center;}
+header div.en_1 div.f_st{position: relative;width: 50%;color: #fff;display: flex;flex-direction: column;align-items: flex-start;}header div.en_1 div.f_st a{display: flex;flex-direction: row;}
+header div.en_1 div.l_st{position: relative;width: 50%;display: flex;flex-direction: column;align-items: flex-end;}header div.en_1 div.l_st div ul{margin: 0 0 10px 0;display: flex;flex-direction: row;}
+i.fab{margin-left: 15px;cursor: pointer;font-size: 35px;color: #fff;}i.fa-facebook:hover{color: #09f;}i.fa-twitter:hover{color: #0cf;}i.fa-whatsapp:hover{color: #0d0;}i.fa-instagram:hover{color: #f0f;}
+header div.en_1 div.l_st div ul li{margin-left: 25px;padding-left: 5px;border-bottom: 2px solid transparent;}
+header div.en_1 div.l_st div ul li:hover{border-bottom: 2px solid #bdbdbd;}header div.en_1 div.l_st div ul li:hover a{color: #dedede;}header div.en_1 div.l_st div ul li a{font-size: 18px;font-weight: 500;}
+/*center*/
+center div{position: relative;width: 120px;margin: 25px 0 60px 0;padding: 2px;background: #505050;}
+/*section_1*/
+section{position: relative;width: 100%;display: flex;align-items: center;align-content: center;justify-content: center;}
+section div.sc_1 h1{color: #fff;font-size: 62px;}
+section div.sc_fst div p{font-size: 26px;margin: 20px 0;}
+section div.sc_fst div a{font-weight: 500;font-size: 20px;padding: 8px;border-radius: 3px;background: #f60;box-shadow: 0 2px 2px rgba(0,0,0,0.4);}
+section div.sc_fst div a:hover{background: #303030;}

@@ -1,0 +1,118 @@
+section{flex-direction: column;}
+center{display: flex;align-items: center;align-content: center;justify-content: center;flex-direction: column;}
+center span{
+  margin-bottom: 10px;
+  color: #303030;
+  font-size: 22px;
+  font-weight: 500;
+}
+div.sc_2_pg{
+  width: 95%;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+div.sc_2_pg button{
+  color: #303030;
+  margin: 5px;
+  padding: 5px 12px;
+  font-size: 22px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+.c_v{
+  color: #fff !important;
+  background: #303030 !important;
+}
+div.sc_2_pg button:hover{
+  color: #fff;
+  background: #303030;
+}
+span.c1_sp + p{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+form.c1_sp_fr{
+  margin: 5px 0 50px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+form.c1_sp_fr input,
+form.c1_sp_fr button{
+  margin: 5px;
+  outline: none;
+  border: none;
+  color: #303030;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 3px 5px;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+form.c1_sp_fr button{
+  cursor: pointer;
+}
+form.c1_sp_fr button:hover{
+  color: #fff;
+  background: #303030;
+}
+/*child*/
+header div.en_1 div.l_st div ul li:nth-child(3){margin-left: 25px;padding-left: 5px;border-left: 2px solid #bdbdbd;border-bottom: 2px solid #bdbdbd;}
+/*image*/
+section div.sc_1{position: relative;width: 100%;height: 75vh;background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/coffee_cup_drink_137884_1366x768.jpg');display: flex;align-items: center;align-content: center;justify-content: center;}
+/*section_2*/
+section div.sc_2{
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+div.sc_2 div{
+  align-self: center;
+  position: relative;
+  width: 90%;
+}
+div.sc_2 div h1{
+  font-weight: 500;
+  font-size: 42px;
+  color: #303030;
+  margin: 0 0 10px 0;
+}
+div.sc_2 div h1 + p{
+  margin: 0 0 20px 0;
+  color: #808080;
+  font-size: 22px;
+}
+div.sc_2 div p{
+  font-size: 22px;
+  color: #353535;
+  margin: 0 0 50px 0;
+  line-height: 30px;
+}
+/*media*/
+@media screen and (max-width:850px) {
+  header div.en_1{justify-content: flex-start;}header div.en_1 div.l_st{display: none;}
+  section div.sc_1{height: 100vh;}
+  /**/
+  header div.en_1{align-items: center;justify-content: space-between;}
+  i.fa-window-close,
+  i.fa-minus-square{display: block;}
+  div.hd_lst{display: block;}
+  div.sc_2_pg{justify-content: center;width: 98%;}
+  div.sc_2_pg button{margin: 3.5px;}
+  div.hd_lst li:nth-child(3){border-left: 2px solid #fff;padding-left: 5px;}
+}
