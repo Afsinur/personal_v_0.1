@@ -1,7 +1,7 @@
 /*child*/
 header div.en_1 div.l_st div ul li:nth-child(4){margin-left: 25px;padding-left: 5px;border-left: 2px solid #bdbdbd;border-bottom: 2px solid #bdbdbd;}
 /*image*/
-section div.sc_1{position: relative;width: 100%;height: 75vh;background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/room_chair_vase_wall_66323_1366x768.jpg');display: flex;align-items: center;align-content: center;justify-content: center;}
+section div.sc_1{position: relative;width: 100%;height: 75vh;background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../img/room_chair_vase_wall_66323_1366x768.jpg');display: flex;align-items: center;align-content: center;justify-content: center;}
 /*section_2*/
 section div.sc_2{position: relative;width: 100%;background: linear-gradient(180deg, #fff 50%, #eee, #ddd, #ccc, #bbb);display: flex;flex-direction: column;align-items: center;align-content: center;justify-content: center;}
 div.sc_2 h1{font-size: 32px;margin: 0 0 10px 0;font-weight: 500;color: #303030;}
