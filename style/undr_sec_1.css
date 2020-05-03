@@ -12,7 +12,7 @@ div.hd_lst div:last-child{display: flex;flex-direction: row;align-items: center;
 ::selection{background: #f50000;color: #fff;}
 /*header*/
 header{position: relative;width: 100%;background: #303030;display: flex;align-items: center;align-content: center;justify-content: center;}
-header div.en_1{position: relative;width: 95%;padding: 15px 0;font-weight: 500;display: flex;flex-direction: row;align-items: flex-start;justify-content: center;}
+header div.en_1{position: relative;width: 90%;padding: 10px 0;font-weight: 500;display: flex;flex-direction: row;align-items: flex-start;justify-content: center;}
 header div.en_1 div.f_st{position: relative;width: 50%;color: #fff;display: flex;flex-direction: column;align-items: flex-start;}header div.en_1 div.f_st a{display: flex;flex-direction: row;}
 header div.en_1 div.l_st{position: relative;width: 50%;display: flex;flex-direction: column;align-items: flex-end;}header div.en_1 div.l_st div ul{margin: 0 0 10px 0;display: flex;flex-direction: row;}
 i.fab{margin-left: 15px;cursor: pointer;font-size: 35px;color: #fff;}i.fa-facebook:hover{color: #09f;}i.fa-twitter:hover{color: #0cf;}i.fa-whatsapp:hover{color: #0d0;}i.fa-instagram:hover{color: #f0f;}
